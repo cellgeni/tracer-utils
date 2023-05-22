@@ -13,7 +13,7 @@ OUTDIR=$2
 #outdir for tracer assemble
 ASSEMBLEDIR=$3
 
-SCRIPT=/nfs/cellgeni/simon/pipeline-files/tracer/tracer_summarise.sh
+SCRIPT=./tracer_summarise.sh
 MEM=30000
 
 mkdir -p "${OUTDIR}/logs"

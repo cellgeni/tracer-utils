@@ -13,7 +13,7 @@ SAMPLE_FILE=$2
 #output directory
 OUTDIR=$3
 
-SCRIPT=/nfs/cellgeni/simon/pipeline-files/tracer/tracer_assemble.sh
+SCRIPT=./tracer_assemble.sh
 MEM=30000
 
 cat $SAMPLE_FILE | while read SAMPLE; do
